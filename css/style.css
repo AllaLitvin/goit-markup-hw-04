@@ -167,6 +167,17 @@ background color footer: #2F303A;*/
   color: var(--white);
 }
 
+.contacts-icon {
+  display: inline;
+  width: 16px;
+  height: 12px;
+  padding: 0px;
+}
+
+.svg:not(:root) {
+  overflow: hidden;
+}
+
 /* hero*/
 
 .hero {
