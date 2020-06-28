@@ -164,22 +164,34 @@ background color footer: #2F303A;*/
 /* hero*/
 
 .hero {
-  background-color: var(--dark-grey-color);
-  color: var(--white);
-}
-.hero .container {
-  width: 696px;
-  padding: 200px, 452px, 280px;
-  align-items: center;
-}
+  display: block;
+  flex-direction: column;
 
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../img/header_img_sq.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1600px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
 .hero-title {
-  padding-top: 0px;
+  display: block;
+  margin: 0px;
+  padding-top: 200px;
+  padding-right: 272px;
+  padding-left: 272px;
+  padding-bottom: 200px;
+  color: var(--white);
   font-family: var(--font-family);
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0.06px;
-
   text-align: center;
 }
 
@@ -195,11 +207,13 @@ background color footer: #2F303A;*/
 /*common section options*/
 
 .section {
+  display: block;
   font-family: var(--font-family);
   font-style: normal;
   padding-top: 94px;
   padding-bottom: 94px;
   margin: 0px;
+  align-items: center;
 }
 
 .section-title {
@@ -569,6 +583,9 @@ a {
   padding-right: 12px;
 }
 
+
+
+
 /*copirate*/
 .developed {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -583,24 +600,36 @@ a {
 /* button options */
 
 .button {
-  display: inline-block;
+  display: inline-flex;
   text-align: center;
-  align-items: flex-start;
   font-family: var(--font-family);
   font-style: normal;
   font-size: 16px;
+  border-radius: 4px;
 }
 
-.button.primary {
+.primary-button {
+  width: 200px;
+  height: 50px;
   font-weight: bold;
   line-height: 30px;
   letter-spacing: 0.06px;
   background-color: var(--blue);
   color: var(--white);
-  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.button.secondary {
+.primary-button::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background-image: url(/img/envelope.svg);
+  background-size: contain;
+}
+
+/*
+.secondary {
   border-radius: 4px;
   border-color: var(--forbutton);
   color: var(--very-dark-grey-color);
