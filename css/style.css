@@ -254,7 +254,9 @@ background color footer: #2F303A;*/
 }
 
 /*advantages options*/
-
+.features {
+  padding-bottom: 0px;
+}
 .advantages {
   display: flex;
   margin-bottom: 0px;
@@ -272,7 +274,6 @@ background color footer: #2F303A;*/
 
 .details {
   width: 270px;
-  height: 120px;
   display: block;
   padding-right: 30px;
 }
@@ -281,7 +282,6 @@ background color footer: #2F303A;*/
   content: "";
   height: 120px;
   display: block;
-  padding: 25px, 100px;
   background-color: #f5f4fa;
   background-image: url(/img/antenna.svg);
   background-repeat: no-repeat;
