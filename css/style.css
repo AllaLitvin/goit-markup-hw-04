@@ -375,24 +375,48 @@ background color footer: #2F303A;*/
 
 .occupation {
   display: flex;
+  align-items: flex-end;
   padding-right: 30px;
+}
+
+.box1 {
+  background-image: url(/img/box1.jpg);
+  width: 370px;
+  height: 294px;
+}
+
+.box2 {
+  background-image: url(/img/box2.jpg);
+  width: 370px;
+  height: 294px;
+}
+
+.box3 {
+  background-image: url(/img/box3.jpg);
+  width: 370px;
+  height: 294px;
 }
 
 .occupation:last-child {
   padding-right: 0px;
 }
 
-.section-item.company {
+.section-title-company {
+  align-items: center;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 27px;
+  padding-bottom: 27px;
   margin-top: 0;
   margin-bottom: 0px;
-  padding-right: 30px;
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--white);
-  text-transform: uppercase;
   width: 370px;
   height: 70px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03px;
 }
 
 .section-item.company:last-child {
@@ -748,6 +772,7 @@ a {
 }
 
 .subscribe {
+  padding-bottom: 20px;
   display: block;
   margin: 0px;
 }
