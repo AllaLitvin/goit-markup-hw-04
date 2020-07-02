@@ -384,20 +384,19 @@ background color footer: #2F303A;*/
 }
 
 .box1 {
-  background-image: url(../img/box1-min.jpg);
-  background-image: url(../img/box1-min.jpg);
+  background-image: url("../img/box1-min.jpg");
   width: 370px;
   height: 294px;
 }
 
 .box2 {
-  background-image: url(../img/box2-min.jpg);
+  background-image: url("../img/box2-min.jpg");
   width: 370px;
   height: 294px;
 }
 
 .box3 {
-  background-image: url(../img/box3-min.jpg);
+  background-image: url("../img/box3-min.jpg");
   width: 370px;
   height: 294px;
 }
