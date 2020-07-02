@@ -198,10 +198,10 @@ background color footer: #2F303A;*/
 }
 .hero-title {
   display: block;
-  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
-  padding-right: 272px;
-  padding-left: 272px;
+  width: 646px;
   padding-bottom: 30px;
   color: var(--white);
   font-family: var(--font-family);
@@ -308,7 +308,6 @@ background color footer: #2F303A;*/
   width: 70px;
   height: 70px;
 }
-.
 /* background-icon*/
 /*
 .antena::before {
@@ -352,13 +351,11 @@ background color footer: #2F303A;*/
 }
 */
 
-
-
 /*company options*/
 /*section*/
 
 .aboutcompany {
-  padding-top: 0px;
+  padding-top: 94px;
 }
 
 .works {
@@ -376,19 +373,19 @@ background color footer: #2F303A;*/
 }
 
 .box1 {
-  background-image: url(/img/box1.jpg);
+  background-image: url(/img/box1-min.jpg);
   width: 370px;
   height: 294px;
 }
 
 .box2 {
-  background-image: url(/img/box2.jpg);
+  background-image: url(/img/box2-min.jpg);
   width: 370px;
   height: 294px;
 }
 
 .box3 {
-  background-image: url(/img/box3.jpg);
+  background-image: url(/img/box3-min.jpg);
   width: 370px;
   height: 294px;
 }
@@ -510,7 +507,7 @@ background color footer: #2F303A;*/
 
 /*section*/
 .partners {
-  padding-top: 0px;
+  padding-top: 94px;
 }
 
 .customers {
