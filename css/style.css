@@ -196,6 +196,7 @@ background color footer: #2F303A;*/
     url(../img/header_img_sq.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
@@ -212,6 +213,7 @@ background color footer: #2F303A;*/
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
   padding-top: 196px;
   width: 646px;
   color: var(--white);
@@ -243,7 +245,6 @@ background color footer: #2F303A;*/
   font-style: normal;
   padding-top: 94px;
   padding-bottom: 94px;
-  margin: 0px;
   align-items: center;
 }
 
