@@ -241,11 +241,11 @@ background color footer: #2F303A;*/
 
 .section {
   display: block;
-  font-family: var(--font-family);
-  font-style: normal;
   padding-top: 94px;
   padding-bottom: 94px;
   align-items: center;
+  font-family: var(--font-family);
+  font-style: normal;
 }
 
 .section-title {
